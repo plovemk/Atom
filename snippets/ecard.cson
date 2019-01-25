@@ -1,0 +1,90 @@
+'.text.html':
+  'eCard':
+    'prefix': 'new eCard english'
+    'body': """<!doctype html>
+    <html style="margin:0;padding:0;">
+      <head>
+        <meta charset="utf-8">
+      </head>
+      <body style="background-color:#fff;margin:0;padding:0;">
+        <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+          <thead>
+            <tr>
+              <th style="border:0;font:inherit;font-family:monospace;font-size:12px;line-height:18px;padding:5px;text-align:left;">
+                <!-- Details -->
+                <p style="font:inherit;font-size:100%;margin:0 0 6px;"><strong>JOB TYPE</strong></p>
+                <p style="font:inherit;font-size:100%;margin:0;"><strong>CATEGORY:</strong> ???</p>
+                <p style="font:inherit;font-size:100%;margin:0;"><strong>DESCRIPTOR:</strong>???</p>
+                <p style="font:inherit;font-size:100%;margin:0;"><strong>SUBJECT LINE:</strong> ???</p>
+                <!-- Details -->
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border:0;padding:0;">
+                <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+                  <tr>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;color:#fff;font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:11px;padding:0;text-align:right;vertical-align:middle;width:448px;">Follow us:</th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;width:4px;">&nbsp;</th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://www.facebook.com/marykay" title="Facebook" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Facebook" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/facebook-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://twitter.com/MaryKay" title="Twitter" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Twitter" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/twitter-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://www.youtube.com/marykay" title="YouTube" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="YouTube" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/youtube-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://pinterest.com/marykayus/" title="Pinterest" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Pinterest" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/pinterest-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://instagram.com/marykayus" title="Instagram" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Instagram" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/instagram-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://blog.marykay.com/" title="Mary Kay Blog" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Mary Kay Blog" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/mary-kay-blog-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;width:4px;">&nbsp;</th>
+                  </tr>
+                  <tr>
+                    <th colspan="9" style="background-color:#000;height:64px;padding:0;width:600px;"><img alt="Mary Kay&reg;" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/mary-kay-logo-bar.png" style="border:0;display:block;height:63px;margin:0;padding:0;width:600px;" /></th>
+                  </tr>
+                </table>
+                <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+                  <tr>
+                    <!-- Hero -->
+                    <td style="background-color:#fff;height:300px;padding:0;width:600px;"><a style="border:0;display:block;height:300px;margin:0;padding:0;width:600px;"
+                      href="HREF"
+                      title=""><img
+                      src="SRC"
+                      alt="ALT"
+                    style="border:0;display:block;height:300px;margin:0;padding:0;width:600px;" /></a></td>
+                    <!-- /Hero -->
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;height:16px;padding:0;width:600px;"><img src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/shadow.png" alt="" style="border:0;display:block;height:16px;margin:0;padding:0;width:600px;"></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;color:#231f20;font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding:10px 20px 40px;width:600px;">
+                      <!-- Copy -->
+                      <p style="font:inherit;font-size:100%;margin:0 0 12px;">Dear [RecipientFirstName],</p>
+                      <p style="font:inherit;font-size:100%;margin:0 0 12px;">[Body]</p>
+                      <p style="font:inherit;font-size:100%;margin:0;">[ConsultantFullName]<br />[ConsultantEmailAddress]<br />[ConsultantPhone] <br> [ConsultantPWS]</p>
+                      <!-- /Copy -->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:12px;line-height:12px;padding:0 20px;width:600px;">[OptOutText]</td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;padding:1px 20px;width:600px;">
+                      <table style="border:0;border-collapse:collapse;height:10px;margin:0 auto;padding:0;table-layout:fixed;width:560px;">
+                        <tbody>
+                          <tr>
+                            <td style="height:10px;padding:1px 0 0;vertical-align:top;width:91px;"><img src="http://www.marykay.com/email/images/2015-02-02_IBC-Order-Confirmation-Email/copy.gif" alt="MK&reg; / Mary Kay&reg;" style="border:0;display:block;height:9px;margin:0;padding:0;width:91px;" /></td>
+                            <td style="color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:10px;padding:0;vertical-align:top;">&nbsp;/ &copy; 2017 Mary Kay Inc.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:12px;line-height:12px;padding:0 20px;width:600px;">WIN JOB NUMBER</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </body>
+    </html>
+    """

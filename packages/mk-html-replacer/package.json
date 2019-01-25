@@ -1,0 +1,16 @@
+{
+  "name": "mk-html-replacer-fork-mk",
+  "main": "./lib/html-special-character-replacer",
+  "version": "0.5.0",
+  "description": "Replace special characters with HTML Symbol decimal value.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "html-special-character-replacer:replace"
+  },
+  "repository": "https://github.com/plovemk/mk-html-replacer.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

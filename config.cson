@@ -1,0 +1,19 @@
+"*":
+  "autocomplete-paths":
+    enableHtmlSupport: true
+  "browser-plus": {}
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "busy-signal"
+      "git-plus"
+      "react"
+      "intentions"
+    ]
+    packagesWithKeymapsDisabled: []
+    uriHandlerRegistration: "never"
+  editor:
+    fontSize: 11
+  "exception-reporting":
+    userId: "7f76a557-b529-4fb2-8f69-5ceafabab54a"
+  minimap: {}

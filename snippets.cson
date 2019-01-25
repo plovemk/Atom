@@ -1,0 +1,1597 @@
+
+# Your snippets#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+########
+# C02 - LARGE HERO LEGACY
+#######
+'.text.html':
+  'large hero':
+    'prefix': 'c2 large hero'
+    'body': """<section class="Hero C02" data-component="C-02 Large Hero" data-label="No Video" data-attach-target=".Content" data-attach-method="before">
+					<div class="HeroBackground"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C02-Large-Hero-Legacy-assets/%5BJOB_ID%5D-C02-Large-Hero-%5BCUSTOM%5D.jpg" alt=""></div>
+					<div class="HeroContent">
+						<div class="HeroCopy">
+							<h1 class="WebFont"><strong>Headline</strong> Text</h1>
+							<p>Optional short description.</p>
+							<a class="CTA" href="#">Call to action</a>
+						</div>
+					</div>
+				</section>"""
+  'hero video':
+    'prefix': 'c2 large video legacy'
+    'body': """<section class="Hero C02" data-component="C-02 Large Hero with Video" data-label="With Video" data-attach-target=".Content" data-attach-method="before">
+            <div class="HeroBackground"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C02-Large-Hero-Legacy-assets/%5BJOB_ID%5D-C02-Large-Hero-%5BCUSTOM%5D.jpg" alt=""></div>
+              <div class="HeroContent">
+                <div class="HeroCopy">
+                <h1 class="WebFont"><strong>Headline</strong> Text</h1>
+              <p>Optional.short</p>
+            </div>
+                <!--
+                To add a video to this component, add the 13-digit Brightcove ID to the DATA-VIDEO-ID attribute on div.HeroVideo
+                -->
+              <div class="HeroVideoWrapper">
+                <div class="HeroVideo" data-video-id="" data-video-player="C02-Large-Hero-Video-Player"><span class="fa"></span></div>
+              </div>
+            </div>
+        </section>"""
+  #C03-Marketplace-Grid-Legacy-assets
+  'marketplace grid legacy':
+    'prefix': 'c03 marketplace grid legacy'
+    'body': """					<div class="ContentRow" data-component="C-03 Marketplace Grid" data-attach-target=".Components" data-attach-method="before">
+    						<div class="MarketplaceGrid">
+
+    							<!-- Ad Row Snippet -->
+    							<!--
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Optional Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Optional Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Optional Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							-->
+
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Optional Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Optional Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Optional Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    						</div>
+    					</div>
+"""
+  #C03c-MarketPlace-Carousel-grid-legacy
+  'C03c-MarketPlace-Carousel-grid-legacy':
+    'prefix': 'C03c-MarketPlace-Carousel-grid-legacy'
+    'body': """					<div class="ContentRow" data-component="C-03c Marketplace Carousel Grid" data-attach-target=".Components" data-attach-method="before">
+    						<div class="MarketplaceGrid">
+    							<a class="MarketplaceDouble Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03c-Marketplace-Carousel-Grid-Legacy-assets/%5BJOB_ID%5D-C03c-Marketplace-Carousel-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    						</div>
+    					</div>
+"""
+  #C05-Tab Conainer-legacy
+  'C05-Tab Conainer-legacy':
+    'prefix': 'C05-Tab Conainer-legacy'
+    'body': """						<!--
+    							The ID attribute on this article.ContentRow.Accordion MUST be set, and should be:
+    								* unique
+    								* human-readable
+    								* URL-safe
+    								* hyphen-separated
+    								* represenetative of the general content subject of all of the sections in the accordion
+    						-->
+    						<article class="ContentRow Accordion" id="Human-Legible-Accordion-ID" data-component="C-05 Tab Container" data-attach-target=".Components" data-attach-method="append">
+
+    							<!-- Section Code Snippet -->
+    							<!--
+    							<section class="AccordionSection" id="Tab-Title">
+    								<a class="AccordionHead" href="#Tab-Title">Tab Title</a>
+    								<div class="AccordionBody">
+    									<div class="AccordionBodyInner">
+    									</div>
+    								</div>
+    							</section>
+    							-->
+
+    							<!-- Accordion Section - Start -->
+    							<!--
+    								The ID attribute on this section.AccordionSection and the HREF on this a.AccordionHead MUST be set, and should be:
+    									* unique
+    									* human-readable
+    									* URL-safe
+    									* hyphen-separated
+    									* determined from this section title
+    									* the same, with the href prefaced by a hash (#)
+    							-->
+    							<section class="AccordionSection" id="Tab-Title">
+    								<a class="AccordionHead" href="#Tab-Title">Tab Title</a>
+    								<div class="AccordionBody">
+    									<div class="AccordionBodyInner">
+    										<!-- Accordion section content goes here. When inserting components into this section, remember to adjust the whitespace/indentation of the code snippet. -->
+    									</div>
+    								</div>
+    							</section>
+    							<!-- Accordion Section - End -->
+
+    						</article>
+"""
+  #C05A Video Control legacy
+  'C05A Video Control legacy':
+    'prefix': 'C05A Video Control legacy'
+    'body': """						<!--
+    							To add videos to this component, add a comma-separated list of 13-digit Brightcove ID to the DATA-VIDEO-PLAYLIST attribute on div.HeroVideo
+    							A thumbnail will be rendered for each video in the order that the list appears, and the first video will be loaded into the player.
+    						-->
+    						<div class="ContentRow" data-component="C-05a Video Control" data-attach-target=".Components" data-attach-method="append">
+    							<div class="Hero">
+    								<div class="HeroVideoWrapper">
+    									<div class="HeroVideo" data-video-id="" data-video-player="C-05a-Video-Control-Video-Player" data-video-playlist=""><span class="fa"></span></div>
+    								</div>
+    							</div>
+    						</div>
+"""
+  #C05b Promotional Tab 4 column image legacy
+  'C05b Promotional Tab 4 column image legacy':
+    'prefix': 'C05b Promotional Tab 4 column image legacy'
+    'body': """						<div class="ContentRow" data-component="C-05b Promotional Tab (4-Column Image)" data-label="&#8532; Text, &#8531; Image" data-attach-target=".Components" data-attach-method="append">
+    							<div class="FloatRight Column4"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C05b-Promotional-Tab-Legacy-assets/%5BJOB_ID%5D-C05b-Promotional-Tab-%5BCUSTOM%5D-4-Column-Short.jpg" alt=""></div>
+    							<div class="FloatLeft Column8">
+    								<h3><strong>Component</strong> Title</h3>
+    								<p>Body Copy with <a class="Active" href="#">link</a> in&nbsp;text.</p>
+    							</div>
+    						</div>
+"""
+  #C05b Promotional tab 6 column
+  'C05b Promotional tab 6 column':
+    'prefix': 'C05b Promotional tab 6 column'
+    'body': """						<div class="ContentRow" data-component="C-05b Promotional Tab (6-Column Image)" data-label="&frac12; Text, &frac12; Image" data-attach-target=".Components" data-attach-method="append">
+    							<div class="FloatRight Column6"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C05b-Promotional-Tab-Legacy-assets/%5BJOB_ID%5D-C05b-Promotional-Tab-%5BCUSTOM%5D-6-Column-Short.jpg" alt=""></div>
+    							<div class="FloatLeft Column6">
+    								<h3><strong>Component</strong> Title</h3>
+    								<p>Body Copy with <a class="Active" href="#">link</a> in&nbsp;text.</p>
+    							</div>
+    						</div>
+"""
+  #C05b Promotional Tab legacy
+  'C05b Promotional Tab legacy':
+    'prefix': 'C05b Promotional Tab legacy'
+    'body': """						<div class="ContentRow" data-component="C-05b Promotional Tab" data-label="Text Only" data-attach-target=".Components" data-attach-method="append">
+    							<div class="FloatLeft">
+    								<h3><strong>Component</strong> Title</h3>
+    								<p>Body Copy with <a class="Active" href="#">link</a> in&nbsp;text.</p>
+    							</div>
+    						</div>
+"""
+  #C19 Page Header legacy
+  'C19 Page Header legacy':
+    'prefix': 'C19 Page Header legacy'
+    'body': """			<div class="Header WebFont C19" data-component="C-19 Page Header" data-label="No Optional Elements" data-attach-target=".Page" data-attach-method="before">
+    				<p class="HeaderMain"><strong>Page</strong> Title</p>
+    			</div>
+"""
+  #C28 Compound Page header legacy
+  'C28 Compound Page header legacy':
+    'prefix': 'C28 Compound Page header legacy'
+    'body': """			<div class="Header WebFont" data-component="C-28 Compound Page Header" data-label="All Optional Elements" data-attach-target=".Page" data-attach-method="before">
+    				<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C28-Page-Header-Legacy-assets/%5BJOB_ID%5D-C28-Page-Header-%5BCUSTOM%5D.jpg" alt="">
+    				<p class="HeaderMain"><strong>Page</strong> Title</p>
+    				<p class="HeaderSecondary">Optional Page Subtitle</p>
+    			</div>
+    			<div class="HeaderIntroduction">
+    				<p>Optional page description</p>
+    				<a class="Active UIButton" href="#">Optional Button Text</a>
+    			</div>
+"""
+  #C29 Short Hero legacy
+  'C29 Short Hero legacy':
+    'prefix': 'C29 Short Hero legacy'
+    'body': """				<section class="Hero TitleOnly" data-component="C-29 Short Hero" data-attach-target=".Content" data-attach-method="before">
+    					<div class="HeroBackground"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C29-Short-Hero-Legacy-assets/%5BJOB_ID%5D-C29-Short-Hero-%5BCUSTOM%5D.jpg" alt=""></div>
+    					<div class="HeroContent">
+    						<div class="HeroCopy">
+    							<h1 class="WebFont"><strong>Headline</strong> Title</h1>
+    							<p>Short Description</p>
+    							<a class="CTA" href="#">Call to action</a>
+    						</div>
+    					</div>
+    				</section>
+"""
+  #C36 Chooser Module legacy
+  'C36 Chooser Module legacy':
+    'prefix': 'C36 Chooser Module legacy'
+    'body': """					<div class="ContentRow" data-component="C-36 Chooser" data-attach-target=".Components" data-attach-method="before">
+    						<div class="ChooserGrid">
+
+    							<!-- Chooser Snippet -->
+    							<!--
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							-->
+
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+
+    						</div>
+    					</div>
+"""
+  #C41 Assets Grid legacy
+  'C41 Assets Grid legacy':
+    'prefix': 'C41 Assets Grid legacy'
+    'body': """						<section class="ContentRow" data-component="C-41 Assets Grid" data-attach-target=".Components" data-attach-method="append">
+    							<h3><strong>Component</strong> Title</h3>
+    							<p>Body Copy</p>
+
+    							<!-- Asset Snippet -->
+    							<!--
+    							<div class="DownloadableAsset">
+    								<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    								<h4>PDF Title</h4>
+    								<p>PDF description</p>
+    								<a class="Active CTA" target="_blank" href="">Download Now</a>
+    							</div>
+    							-->
+
+    							<!-- Row 1 - Start -->
+    							<div class="DownloadableAsset">
+    								<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    								<h4>PDF Title</h4>
+    								<p>PDF description</p>
+    								<a class="Active CTA" target="_blank" href="">Download Now</a>
+    							</div>
+    							<div class="DownloadableAsset">
+    								<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    								<h4>PDF Title</h4>
+    								<p>PDF description</p>
+    								<a class="Active CTA" target="_blank" href="">Download Now</a>
+    							</div>
+    							<div class="DownloadableAsset">
+    								<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    								<h4>PDF Title</h4>
+    								<p>PDF description</p>
+    								<a class="Active CTA" target="_blank" href="">Download Now</a>
+    							</div>
+    							<div class="DownloadableAsset">
+    								<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    								<h4>PDF Title</h4>
+    								<p>PDF description</p>
+    								<a class="Active CTA" target="_blank" href="">Download Now</a>
+    							</div>
+    							<!-- Row 1 - End -->
+
+    							<!-- A br.ClearFloat is required after every 4th asset. -->
+    							<br class="ClearFloat">
+
+    						</section>
+"""
+  #C42 Marketing Quote large legacy
+  'C42 Marketing Quote large legacy':
+    'prefix': 'C42 Marketing Quote large legacy'
+    'body': """						<div class="ContentRow" data-component="C-42 Marketing Quote (Large)" data-label="Large (White)" data-attach-target=".Components" data-attach-method="append">
+    							<blockquote class="Quote">
+    								<figure><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C42-Marketing-Quotes-Both-assets/%5BJOB_ID%5D-C42-Marketing-Quotes-%5BCustom%5D.jpg" alt=""></figure>
+    								<figcaption>
+    									<span class="QuoteContent">Quote Text</span>
+    									<cite><strong>Name,</strong> Job Title / Career Path Status</cite>
+    								</figcaption>
+    							</blockquote>
+    						</div>
+"""
+  #C42 Marketing Quote Medium legacy
+  'C42 Marketing Quote Medium legacy':
+    'prefix': 'C42 Marketing Quote Medium legacy'
+    'body': """						<div class="ContentRow" data-component="C-42 Marketing Quote (Medium)" data-label="Medium (Gray)" data-attach-target=".Components" data-attach-method="append">
+    							<blockquote class="Quote Medium">
+    								<figure><span class="Circular"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C42-Marketing-Quotes-Both-assets/%5BJOB_ID%5D-C42-Marketing-Quotes-%5BCustom%5D.jpg" alt=""></span></figure>
+    								<figcaption>
+    									<span class="QuoteContent">Quote Text</span>
+    									<cite><strong>Name,</strong> Job Title / Career Path Status</cite>
+    								</figcaption>
+    							</blockquote>
+    						</div>
+"""
+  #C42 Marketing Quote Small legacy
+  'C42 Marketing Quote Small legacy':
+    'prefix': 'C42 Marketing Quote Small legacy'
+    'body': """						<div class="ContentRow" data-component="C-42 Marketing Quote (Small)" data-label="Small (Black)" data-attach-target=".Components" data-attach-method="append">
+    							<blockquote class="Quote Small">
+    								<figure><span class="Circular"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C42-Marketing-Quotes-Both-assets/%5BJOB_ID%5D-C42-Marketing-Quotes-%5BCustom%5D.jpg" alt=""></span></figure>
+    								<figcaption>
+    									<span class="QuoteContent">Quote Text</span>
+    									<cite><strong>Name,</strong> Job Title / Career Path Status</cite>
+    								</figcaption>
+    							</blockquote>
+    						</div>
+"""
+  #C43 Image Gallery legacy
+  'C43 Image Gallery legacy':
+    'prefix': 'C43 Image Gallery legacy'
+    'body': """						<div class="ContentRow" data-component="C-43 Image Gallery" data-attach-target=".Components" data-attach-method="append">
+    							<h3>Slideshow Title</h3>
+    							<p>Slideshow description</p>
+    							<section class="Slideshow" id="Slideshow">
+    								<!--
+    									The photo description goes into the DATA-CAPTION attribute on the img.
+    										* Basic text formatting may be achieved by using character entities to write HTML in the attribute.
+    											* <		&lt;	less than
+    											* >		&gt;	greater than
+    											* "		&quot;	double quotes
+    										* Supported tags include:
+    											* strong	(bold)
+    											* em		(italics)
+    											* sup		(superscript)
+    									The ALT attribute should contain an accessible, text-only (no HTML) description of the image.
+    									If this is a large sequence of images, it may not be practical to write a caption and alt text for each image; in that case, leave all of them blank.
+    								-->
+    								<!-- Slide Snippet -->
+    								<!--
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    								-->
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    							</section>
+    						</div>
+"""
+  #C45 Prize Category grid legacy
+  'C45 Prize Category grid legacy':
+    'prefix': 'C45 Prize Category grid legacy'
+    'body': """						<article class="ContentRow Prizes" data-prize-list-id="C45-Prize-Category-Grid" data-component="C-45 Prize Category Grid" data-label="With Categories" data-attach-target=".Components" data-attach-method="append">
+
+    							<!-- Category Snippet -->
+    							<!--
+    							<section class="Category" data-prize-category="C45-Prize-Category-Grid-Category-Title">
+    								<h2 class="CategoryTitle">Category Title <small>Category Qualifier</small></h2>
+    								<div class="CategoryList">
+
+    								</div>
+    							</section>
+    							-->
+
+    							<!-- Category - Start -->
+    							<!--
+    								The DATA-PRIZE-CATEGORY attribute on this section.Category MUST be set, and should be:
+    									* unique
+    									* human-readable
+    									* hyphen-separated
+    									* determined from this category title
+    							-->
+    							<section class="Category" data-prize-category="C45-Prize-Category-Grid-Category-Title-1">
+    								<h2 class="CategoryTitle">Category Title <small>Category Qualifier</small></h2>
+    								<div class="CategoryList">
+
+    									<!-- Prize Snippet -->
+    									<!--
+    									<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-Index">
+    										<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    										<div class="PrizeContents">
+    											<div class="PrizeButtonCopy">Button Copy</div>
+    											<div class="PrizeTitle">Prize Name</div>
+    											<div class="PrizeDetails">
+    												<p>Prize Description</p>
+    											</div>
+    										</div>
+    									</div>
+    									-->
+
+    									<!-- Prize - Start -->
+    									<!--
+    										The DATA-PRIZE-INDEX attribute on this div.Prize MUST be set, and should be:
+    											* unique
+    											* hyphen-separated
+    									-->
+    									<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-001">
+    										<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    										<div class="PrizeContents">
+    											<!-- If the button copy is the same as the prize name, delete the div.PrizeButtonCopy -->
+    											<div class="PrizeButtonCopy">Button Copy</div>
+    											<div class="PrizeTitle">Prize Name</div>
+    											<div class="PrizeDetails">
+    												<p>Prize Description</p>
+    											</div>
+    										</div>
+    									</div>
+    									<!-- Prize - End -->
+
+    									<!-- A br.ClearFloat is required after every 3rd asset. -->
+    									<br class="ClearFloat">
+
+    								</div>
+    							</section>
+    							<!-- Category - End -->
+
+    						</article>
+"""
+  #C45a Prize Grid Legacy
+  'C45a Prize Grid Legacy':
+    'prefix': 'C45a Prize Grid Legacy'
+    'body': """						<article class="ContentRow Prizes" data-prize-list-id="C45a-Prize-Grid-No-Categories" data-component="C-45a Prize Grid (No Categories)" data-label="No Categories" data-attach-target=".Components" data-attach-method="append">
+
+    							<!-- Prize Snippet -->
+    							<!--
+    							<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-Index">
+    								<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    								<div class="PrizeContents">
+    									<div class="PrizeButtonCopy">Button Copy</div>
+    									<div class="PrizeTitle">Prize Name</div>
+    									<div class="PrizeDetails">
+    										<p>Prize Description</p>
+    									</div>
+    								</div>
+    							</div>
+    							-->
+
+    							<!-- Prize - Start -->
+    							<!--
+    								The DATA-PRIZE-INDEX attribute on this div.Prize MUST be set, and should be:
+    									* unique
+    									* hyphen-separated
+    							-->
+    							<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-001">
+    								<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    								<div class="PrizeContents">
+    									<!-- If the button copy is the same as the prize name, delete the div.PrizeButtonCopy -->
+    									<div class="PrizeButtonCopy">Button Copy</div>
+    									<div class="PrizeTitle">Prize Name</div>
+    									<div class="PrizeDetails">
+    										<p>Prize Description</p>
+    									</div>
+    								</div>
+    							</div>
+    							<!-- Prize - End -->
+
+    							<!-- A br.ClearFloat is required after every 3rd asset. -->
+    							<br class="ClearFloat">
+
+    						</article>
+"""
+  #C47 People Grid legacy
+  'C47 People Grid legacy':
+    'prefix': 'C47 People Grid legacy'
+    'body': """						<article class="ContentRow Prizes Smaller People" data-prize-list-id="C47-People-Grid" data-component="C-47 People Grid" data-attach-target=".Components" data-attach-method="append">
+
+    							<!-- Person Snippet -->
+    							<!--
+    							<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-Index">
+    								<div class="PrizeImage"><img alt="" src="../Design/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    								<div class="PrizeContents">
+    									<div class="PrizeTitle">Person Name</div>
+    								</div>
+    							</div>
+    							-->
+
+    							<!-- Prize - Start -->
+    							<!--
+    								The DATA-PRIZE-INDEX attribute on this div.Prize MUST be set, and should be:
+    									* unique
+    									* hyphen-separated
+    							-->
+    							<div class="Prize" data-prize-index="C47-People-Grid-001">
+    								<div class="PrizeImage"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    								<div class="PrizeContents">
+    									<div class="PrizeTitle">Person Name<br><br><strong>Optional Category A&nbsp;Label</strong><br>Optional Category A&nbsp;Text<br><br><strong>Optional Category B&nbsp;Label</strong><br>Optional Category B&nbsp;Text</div>
+    								</div>
+    							</div>
+    							<!-- Prize - End -->
+
+    							<!-- A br.ClearFloat is required after every 6th asset. -->
+    							<br class="ClearFloat">
+
+    						</article>
+"""
+  #C51 Tabular Data legacy
+  'C51 Tabular Data legacy':
+    'prefix': 'C51 Tabular Data legacy'
+    'body': """						<div class="ContentRow" data-component="C-51 Tabular Data" data-attach-target=".Components" data-attach-method="append">
+    							<h3>Optional <strong>Component</strong> Title</h3>
+    							<p>Optional component description</p>
+    							<div class="Table Padded">
+    								<div class="TableRow TableHeader">
+    									<div class="TableCell">Header 1</div>
+    									<div class="TableCell">Header 2</div>
+    									<div class="TableCell">Header 3</div>
+    									<div class="TableCell">Header 4</div>
+    								</div>
+    								<div class="TableRow">
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    								</div>
+    								<div class="TableRow">
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    								</div>
+    								<div class="TableRow">
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    								</div>
+    								<div class="TableRow">
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    									<div class="TableCell">--</div>
+    								</div>
+    							</div>
+    						</div>
+"""
+  #C63 Desktop Accordions FAQ legacy
+  'C63 Desktop Accordions FAQ legacy':
+    'prefix': 'C63 Desktop Accordions FAQ legacy'
+    'body': """						<!--
+    							The ID attribute on this article.ContentRow.Accordion.Sitecore MUST be set, and should be:
+    								* unique
+    								* human-readable
+    								* URL-safe
+    								* hyphen-separated
+    								* represenetative of the general content subject of all of the sections in the accordion
+    						-->
+    						<article class="ContentRow Accordion Sitecore" id="Human-Legible-FAQs-ID" data-component="C-63 Desktop Accordions (FAQs)" data-attach-target=".Components" data-attach-method="append">
+
+    							<!-- FAQ Snippet -->
+    							<!--
+    							<section class="AccordionSection" id="FAQ-Question">
+    								<a class="AccordionHead" href="#FAQ-Question">Question</a>
+    								<div class="AccordionBody">
+    									<div class="AccordionBodyInner">
+    										<p>Answer</p>
+    									</div>
+    								</div>
+    							</section>
+    							-->
+
+    							<!-- FAQ - Start -->
+    							<!--
+    								The ID attribute on this section.AccordionSection and the HREF on this a.AccordionHead MUST be set, and should be:
+    									* unique
+    									* human-readable
+    									* URL-safe
+    									* hyphen-separated
+    									* determined from this FAQ question
+    									* the same, with the href prefaced by a hash (#)
+    							-->
+    							<section class="AccordionSection" id="FAQ-Question">
+    								<a class="AccordionHead" href="#FAQ-Question">Question</a>
+    								<div class="AccordionBody">
+    									<div class="AccordionBodyInner">
+    										<p>Answer</p>
+    									</div>
+    								</div>
+    							</section>
+    							<!-- FAQ - End -->
+
+    						</article>
+"""
+  #C67 Footnote Containers Legacy
+  'C67 Footnote Containers Legacy':
+    'prefix': 'C67 Footnote Containers Legacy'
+    'body': """						<hr data-component="C-67 Footnote Containers" data-attach-target=".Components" data-attach-method="append">
+    						<div class="ContentRow Fineprint">
+    							<p>Footnote Text</p>
+    						</div>
+"""
+  #HTML TEMPLATES
+  #ENGLISH
+  'ENGLISH HTML':
+    'prefix': 'new English'
+    'body': """<!doctype html>
+    <html lang="en-US">
+    	<head>
+    		<meta charset="utf-8">
+    		<meta name="author" content="">
+    		<meta name="job" content="">
+    		<meta name="targets" content="ConsultantGroup">
+    		<meta name="publishdate" content="1990-01-01T00:00:00">
+    		<meta name="archivedate" content="2099-12-31T00:00:00">
+    		<meta name="expiredate" content="2099-12-31T00:00:00">
+    		<meta name="keywords" content="">
+    		<meta name="language" content="en">
+    		<title></title>
+    		<!--
+    		<style>
+    			[class^="ContentArea"] a:not([href^="#"]):not([href^="http"]):not([href$="#"]):not([href^="mailto:"]):not([href^="tel:"]):not([href^="fax:"]) { background-color: #3f0; }
+    			[class^="ContentArea"] .AccordionBody { height: auto !important; }
+    			[class^="ContentArea"] .page-break-before { page-break-before: always; }
+    			[class^="ContentArea"] .page-break-after { page-break-after: always; }
+    		</style>
+    		-->
+    	</head>
+    	<body class="ContentArea">
+    		<link rel="stylesheet" type="text/css" href="http://fast.fonts.net/cssapi/23d5d495-3fee-4073-9ac7-ef0acd65a149.css"/>
+    		<link rel="stylesheet" type="text/css" href="http://fast.fonts.net/cssapi/a5ea2b3e-c6c8-45ee-a56e-98a906816148.css"/>
+    		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    		<link rel="stylesheet" type="text/css" href="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Stylesheets/InTouch.css">
+    		<link rel="stylesheet" type="text/css" href="http://content2.marykayintouch.com/content/recognition/contests/sem17regcontest/c19-28.css">
+    		<script type="text/javascript"> var InTouchPageConfig = { DateList : {}, PrizeList : {}, WinnerList : {}, VideoList : {} }; </script>
+    		<div id="Wrapper" lang="en-US">
+    			<!--
+    				Page Header - Start
+    				• C-19 Page Header
+    				• C-28 Compound Page Header
+    			-->
+
+    			<!-- Page Header - End -->
+    			<div class="Page">
+    				<!--
+    					Hero - Start
+    					• C-02 Large Hero
+    					• C-29 Short Hero
+    				-->
+
+    				<!-- Hero - End -->
+    				<section class="Content">
+    					<!--
+    						Ad Space - Start
+    						• C-03 Marketplace Grid
+    						• C-03c Marketplace Carousel Grid
+    						• C-36 Chooser Grid
+    					-->
+
+    					<!-- Ad Space - End -->
+    					<div class="Components">
+    						<!--
+    							Content-Level Components - Start
+    							• C-05 Tab Container
+    							• C-05a Video Control
+    							• C-05b Promotional Tab
+    							• C-41 Assets Grid
+    							• C-42 Marketing Quote
+    							• C-43 Image Gallery
+    							• C-45 Prize Category Grid
+    							• C-47 People Grid
+    							• C-51 Tabular Data
+    							• C-63 Desktop Accordions (FAQs)
+    						-->
+
+    						<!-- Content-Level Components - End -->
+
+    						<!--
+    							Footnotes - Start
+    							• C-67 Footnotes Container
+    						-->
+
+    						<!-- Footnotes - End -->
+    					</div>
+    				</section>
+    			</div>
+    		</div>
+    		<script type="text/javascript" src="http://cdn.polyfill.io/v1/polyfill.min.js"></script>
+    		<script type="text/javascript" src="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Scripts/jQuery.js"></script>
+    		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    		<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+    		<script type="text/javascript" src="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Scripts/InTouch.js" data-path="http://content2.marykayintouch.com/Content/Assets/"></script>
+    	</body>
+    </html>"""
+  #SPANISH
+  'SPANSISH HTML':
+    'prefix': 'new SPANISH'
+    'body': """
+    <!doctype html>
+    <html lang="es-US">
+    	<head>
+    		<meta charset="utf-8">
+    		<meta name="author" content="">
+    		<meta name="job" content="">
+    		<meta name="targets" content="ConsultantGroup">
+    		<meta name="publishdate" content="1990-01-01T00:00:00">
+    		<meta name="archivedate" content="2099-12-31T00:00:00">
+    		<meta name="expiredate" content="2099-12-31T00:00:00">
+    		<meta name="keywords" content="">
+    		<meta name="language" content="es">
+    		<title></title>
+    		<!--
+    		<style>
+    			[class^="ContentArea"] a:not([href^="#"]):not([href^="http"]):not([href$="#"]):not([href^="mailto:"]):not([href^="tel:"]):not([href^="fax:"]) { background-color: #3f0; }
+    			[class^="ContentArea"] .AccordionBody { height: auto !important; }
+    			[class^="ContentArea"] .page-break-before { page-break-before: always; }
+    			[class^="ContentArea"] .page-break-after { page-break-after: always; }
+    		</style>
+    		-->
+    	</head>
+    	<body class="ContentArea">
+    		<link rel="stylesheet" type="text/css" href="http://fast.fonts.net/cssapi/23d5d495-3fee-4073-9ac7-ef0acd65a149.css"/>
+    		<link rel="stylesheet" type="text/css" href="http://fast.fonts.net/cssapi/a5ea2b3e-c6c8-45ee-a56e-98a906816148.css"/>
+    		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    		<link rel="stylesheet" type="text/css" href="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Stylesheets/InTouch.css">
+    		<link rel="stylesheet" type="text/css" href="http://content2.marykayintouch.com/content/recognition/contests/sem17regcontest/c19-28.css">
+    		<script type="text/javascript"> var InTouchPageConfig = { DateList : {}, PrizeList : {}, WinnerList : {}, VideoList : {} }; </script>
+    		<div id="Wrapper" lang="es-US">
+    			<!--
+    				Page Header - Start
+    				• C-19 Page Header
+    				• C-28 Compound Page Header
+    			-->
+
+    			<!-- Page Header - End -->
+    			<div class="Page">
+    				<!--
+    					Hero - Start
+    					• C-02 Large Hero
+    					• C-29 Short Hero
+    				-->
+
+    				<!-- Hero - End -->
+    				<section class="Content">
+    					<!--
+    						Ad Space - Start
+    						• C-03 Marketplace Grid
+    						• C-03c Marketplace Carousel Grid
+    						• C-36 Chooser Grid
+    					-->
+
+    					<!-- Ad Space - End -->
+    					<div class="Components">
+    						<!--
+    							Content-Level Components - Start
+    							• C-05 Tab Container
+    							• C-05a Video Control
+    							• C-05b Promotional Tab
+    							• C-41 Assets Grid
+    							• C-42 Marketing Quote
+    							• C-43 Image Gallery
+    							• C-45 Prize Category Grid
+    							• C-47 People Grid
+    							• C-51 Tabular Data
+    							• C-63 Desktop Accordions (FAQs)
+    						-->
+
+    						<!-- Content-Level Components - End -->
+
+    						<!--
+    							Footnotes - Start
+    							• C-67 Footnotes Container
+    						-->
+
+    						<!-- Footnotes - End -->
+    					</div>
+    				</section>
+    			</div>
+    		</div>
+    		<script type="text/javascript" src="http://cdn.polyfill.io/v1/polyfill.min.js"></script>
+    		<script type="text/javascript" src="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Scripts/jQuery.js"></script>
+    		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    		<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+    		<script type="text/javascript" src="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Scripts/InTouch.js" data-path="http://content2.marykayintouch.com/Content/Assets/"></script>
+    	</body>
+    </html>"""
+  #BIG KAHUNA
+  'KAHUNA HTML':
+    'prefix': 'new KAHUNA'
+    'body': """<!doctype html>
+    <html lang="en-US">
+    	<head>
+    		<meta charset="utf-8">
+    		<meta name="author" content="Matthew Jordan Lueck">
+    		<meta name="job" content="">
+    		<meta name="targets" content="ConsultantGroup">
+    		<meta name="publishdate" content="1990-01-01T00:00:00">
+    		<meta name="archivedate" content="2099-12-31T00:00:00">
+    		<meta name="expiredate" content="2099-12-31T00:00:00">
+    		<meta name="keywords" content="">
+    		<meta name="language" content="en">
+    		<title>Big Kahuna &ndash; InTouch Templates</title>
+    		<style>
+    			@media screen {
+    				body { background: hsl(240,2%,90%); }
+    			}
+    			[class^="ContentArea"] .BigKahunaLabel {
+    				background-image: linear-gradient(to top, hsla(195,50%,96%,0.5) 0%, hsla(195,50%,96%,0.25) 25%, hsla(195,50%,96%,0.1) 50%, hsla(195,50%,96%,0) 100%);
+    				color: hsl(195,74%,49%);
+    				display: block;
+    				font-family: 'Neue Helvetica W01', sans-serif;
+    				font-size: 24px;
+    				font-weight: 200;
+    				margin-bottom: 8px;
+    				padding: 32px 0 8px;
+    				text-align: center;
+    			}
+    			[class^="ContentArea"] .Page .BigKahunaLabel,
+    			[class^="ContentArea"] .Content .BigKahunaLabel {
+    				margin-left: -16px;
+    				margin-right: -16px;
+    			}
+    			[class^="ContentArea"] .BigKahunaLabel::after {
+    				background-image: linear-gradient(to left, hsl(240,2%,90%) 5%, hsl(195,74%,49%) 50%, hsl(240,2%,90%) 95%);
+    				content: "";
+    				display: block;
+    				height: 1px;
+    				left: 0;
+    				margin-top: 7px;
+    				position: absolute;
+    				right: 0;
+    				width: 100%;
+    			}
+    			[class^="ContentArea"] #Wrapper {
+    				background: #fff;
+    				border-color: hsl(240,2%,90%);
+    				border-style: dotted;
+    				border-width: 0 1px;
+    				box-shadow: 0 0 16px -4px hsla(345,6%,13%,0.5);
+    				position: static !important;
+    				width: 770px !important;
+    			}
+    			[class^="ContentArea"] .NotSupported {
+    				background-color: hsl(345,74%,49%);
+    				background-image: repeating-linear-gradient(-45deg, transparent, transparent 0.5em, hsla(345,6%,13%,0.1) 0.5em, hsla(345,6%,13%,0.1) 1em);
+    				box-shadow: 0 4px 8px -4px hsla(345,6%,13%,0.75);
+    				color: hsl(0,0%,100%);
+    				font-family: 'Neue Helvetica W01', sans-serif;
+    				font-size: 16px;
+    				font-weight: 500;
+    				padding: 1em 0;
+    				text-align: center;
+    			}
+    			@media print {
+    				[class^="ContentArea"] .NoBreak {
+    					break-inside: avoid;
+    					page-break-inside: avoid;
+    				}
+    			}
+    		</style>
+    	</head>
+    	<body class="ContentArea">
+    		<link rel="stylesheet" type="text/css" href="http://fast.fonts.net/cssapi/23d5d495-3fee-4073-9ac7-ef0acd65a149.css">
+    		<link rel="stylesheet" type="text/css" href="http://fast.fonts.net/cssapi/a5ea2b3e-c6c8-45ee-a56e-98a906816148.css">
+    		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    		<link rel="stylesheet" type="text/css" href="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Stylesheets/InTouch.css">
+    		<script type="text/javascript"> var InTouchPageConfig = { DateList : {}, PrizeList : {}, WinnerList : {}, VideoList : {} }; </script>
+    		<div id="Wrapper" lang="en-US">
+
+    			<!-- C-19 Page Header - Start -->
+    			<div class="Header WebFont C19" data-component="C-19 Page Header">
+    				<p class="HeaderMain"><strong>Page</strong> Title</p>
+    			</div>
+    			<!-- C-19 Page Header - End -->
+
+    			<!-- C-28 Compound Page Header - Start -->
+    			<div class="Header WebFont" data-component="C-28 Compound Page Header">
+    				<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C28-Page-Header-Legacy-assets/%5BJOB_ID%5D-C28-Page-Header-%5BCUSTOM%5D.jpg" alt="">
+    				<p class="HeaderMain"><strong>Page</strong> Title</p>
+    				<p class="HeaderSecondary">Page Subtitle</p>
+    			</div>
+    			<div class="HeaderIntroduction">
+    				<p>Page description</p>
+    				<a class="Active UIButton" href="#">Button&nbsp;Text</a>
+    			</div>
+    			<!-- C-28 Compound Page Header - End -->
+
+    			<div class="Page">
+
+    				<!-- C-02 Large Hero - Start -->
+    				<section class="Hero C02" data-component="C-02 Large Hero">
+    					<div class="HeroBackground"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C02-Large-Hero-Legacy-assets/%5BJOB_ID%5D-C02-Large-Hero-%5BCUSTOM%5D.jpg" alt=""></div>
+    					<div class="HeroContent">
+    						<div class="HeroCopy">
+    							<h1 class="WebFont"><strong>Headline</strong> Title</h1>
+    							<p>Short Description</p>
+    							<a class="CTA" href="#">Call to action</a>
+    						</div>
+    						<div class="HeroVideoWrapper">
+    							<div class="HeroVideo" data-video-id="3901370841001" data-video-player="C02-Large-Hero-Video-Player"><span class="fa"></span></div>
+    						</div>
+    					</div>
+    				</section>
+    				<!-- C-02 Large Hero - End -->
+
+    				<!-- C-29 Short Hero - Start -->
+    				<section class="Hero TitleOnly" data-component="C-29 Short Hero">
+    					<div class="HeroBackground"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C29-Short-Hero-Legacy-assets/%5BJOB_ID%5D-C29-Short-Hero-%5BCUSTOM%5D.jpg" alt=""></div>
+    					<div class="HeroContent">
+    						<div class="HeroCopy">
+    							<h1 class="WebFont"><strong>Headline</strong> Title</h1>
+    							<p>Short Description</p>
+    							<a class="CTA" href="#">Call to action</a>
+    						</div>
+    					</div>
+    				</section>
+    				<!-- C-29 Short Hero - End -->
+
+    				<section class="Content">
+
+    					<!-- C-03 Marketplace Grid - Start -->
+    					<div class="ContentRow" data-component="C-03 Marketplace Grid">
+    						<div class="MarketplaceGrid">
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    						</div>
+    					</div>
+    					<!-- C-03 Marketplace Grid - End -->
+
+    					<!-- C-03c Marketplace Carousel Grid - Start -->
+    					<div class="ContentRow" data-component="C-03c Marketplace Carousel Grid">
+    						<div class="MarketplaceGrid">
+    							<a class="MarketplaceDouble Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03c-Marketplace-Carousel-Grid-Legacy-assets/%5BJOB_ID%5D-C03c-Marketplace-Carousel-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="MarketplaceSingle Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C03-Marketplace-Grid-Legacy-assets/%5BJOB_ID%5D-C03-Marketplace-Grid-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="Copy">Short Description</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    						</div>
+    					</div>
+    					<!-- C-03c Marketplace Carousel Grid - End -->
+
+    					<!-- C-36 Chooser Module - Start -->
+    					<div class="ContentRow" data-component="C-36 Chooser Module">
+    						<div class="ChooserGrid">
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    							<a class="ChooserModule Active" href="">
+    								<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C36-Chooser-Module-Legacy-assets/%5BJOB_ID%5D-C36-Chooser-Module-%5BCUSTOM%5D.jpg" alt="">
+    								<span class="Title">Headline&nbsp;Text</span>
+    								<span class="CTA">Call To Action</span>
+    							</a>
+    						</div>
+    					</div>
+    					<!-- C-36 Chooser Module - End -->
+
+    					<!-- C-05 Tab Container - Start -->
+    					<article class="ContentRow Accordion" id="Human-Legible-Accordion-ID" data-component="C-05 Tab Container">
+    						<section class="AccordionSection" id="Tab-Title">
+    							<a class="AccordionHead" href="#Tab-Title">Tab Title</a>
+    							<div class="AccordionBody">
+    								<div class="AccordionBodyInner">
+    								</div>
+    							</div>
+    						</section>
+    					</article>
+    					<!-- C-05 Tab Container - End -->
+
+    					<!-- C-05a Video Control - Start -->
+    					<div class="ContentRow" data-component="C-05a Video Control">
+    						<div class="Hero">
+    							<div class="HeroVideoWrapper">
+    								<div class="HeroVideo" data-video-id="" data-video-player="C-05a-Video-Control-Video-Player" data-video-playlist="3901370841001,2226421346001,1622190952001,3339904916001,1466990209001"><span class="fa"></span></div>
+    							</div>
+    						</div>
+    					</div>
+    					<!-- C-05a Video Control - End -->
+
+    					<!-- C-05b Promotional Tab - Start -->
+    					<div class="ContentRow" data-component="C-05b Promotional Tab (4-Column Image)">
+    						<div class="FloatRight Column4"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C05b-Promotional-Tab-Legacy-assets/%5BJOB_ID%5D-C05b-Promotional-Tab-%5BCUSTOM%5D-4-Column-Short.jpg" alt=""></div>
+    						<div class="FloatLeft Column8">
+    							<h3><strong>Component</strong> Title</h3>
+    							<p>Body Copy with <a class="Active" href="#">link</a> in&nbsp;text.</p>
+    						</div>
+    					</div>
+    					<!-- C-05b Promotional Tab - End -->
+
+    					<!-- C-05b Promotional Tab - Start -->
+    					<div class="ContentRow" data-component="C-05b Promotional Tab (6-Column Image)">
+    						<div class="FloatRight Column6"><img class="FloatRight" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C05b-Promotional-Tab-Legacy-assets/%5BJOB_ID%5D-C05b-Promotional-Tab-%5BCUSTOM%5D-6-Column-Short.jpg" alt=""></div>
+    						<div class="FloatLeft Column6">
+    							<h3><strong>Component</strong> Title</h3>
+    							<p>Body Copy with <a class="Active" href="#">link</a> in&nbsp;text.</p>
+    						</div>
+    					</div>
+    					<!-- C-05b Promotional Tab - End -->
+
+    					<!-- C-07 Promotional Product Area - Start -->
+    					<div class="ContentRow" data-component="C-07 Promotional Product Area">
+    						<div class="NotSupported">Not supported for current InTouch.</div>
+    					</div>
+    					<!-- C-07 Promotional Product Area - End -->
+
+    					<!-- C-41 Assets Grid - Start -->
+    					<section class="ContentRow" data-component="C-41 Assets Grid">
+    						<h3><strong>Component</strong> Title</h3>
+    						<p>Body Copy</p>
+
+    						<div class="DownloadableAsset">
+    							<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    							<h4>PDF Title</h4>
+    							<p>PDF description</p>
+    							<a class="Active CTA" target="_blank" href="">Download Now</a>
+    						</div>
+    						<div class="DownloadableAsset">
+    							<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    							<h4>PDF Title</h4>
+    							<p>PDF description</p>
+    							<a class="Active CTA" target="_blank" href="">Download Now</a>
+    						</div>
+    						<div class="DownloadableAsset">
+    							<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    							<h4>PDF Title</h4>
+    							<p>PDF description</p>
+    							<a class="Active CTA" target="_blank" href="">Download Now</a>
+    						</div>
+    						<div class="DownloadableAsset">
+    							<div class="DownloadableAssetThumbnail"><img src="http://content2.marykayintouch.com/Content/Assets/_Core/Images/Generic/C41-Generic-Page.png" alt=""></div>
+    							<h4>PDF Title</h4>
+    							<p>PDF description</p>
+    							<a class="Active CTA" target="_blank" href="">Download Now</a>
+    						</div>
+
+    						<br class="ClearFloat">
+
+    					</section>
+    					<!-- C-41 Assets Grid - End -->
+
+    					<!-- C-42 Large Marketing Quote - Start -->
+    					<div class="ContentRow" data-component="C-42 Marketing Quote (Large)">
+    						<blockquote class="Quote">
+    							<figure><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C42-Marketing-Quotes-Both-assets/%5BJOB_ID%5D-C42-Marketing-Quotes-%5BCustom%5D.jpg" alt=""></figure>
+    							<figcaption>
+    								<span class="QuoteContent">Quote&nbsp;Text</span>
+    								<cite><strong>Name,</strong> Job Title / Career Path Status</cite>
+    							</figcaption>
+    						</blockquote>
+    					</div>
+    					<!-- C-42 Large Marketing Quote - End -->
+
+    					<!-- C-42 Medium Marketing Quote - Start -->
+    					<div class="ContentRow" data-component="C-42 Marketing Quote (Medium)">
+    						<blockquote class="Quote Medium">
+    							<figure><span class="Circular"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C42-Marketing-Quotes-Both-assets/%5BJOB_ID%5D-C42-Marketing-Quotes-%5BCustom%5D.jpg" alt=""></span></figure>
+    							<figcaption>
+    								<span class="QuoteContent">Quote&nbsp;Text</span>
+    								<cite><strong>Name,</strong> Job Title / Career Path Status</cite>
+    							</figcaption>
+    						</blockquote>
+    					</div>
+    					<!-- C-42 Medium Marketing Quote - End -->
+
+    					<!-- C-42 Small Marketing Quote - Start -->
+    					<div class="ContentRow" data-component="C-42 Marketing Quote (Small)">
+    						<blockquote class="Quote Small">
+    							<figure><span class="Circular"><img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C42-Marketing-Quotes-Both-assets/%5BJOB_ID%5D-C42-Marketing-Quotes-%5BCustom%5D.jpg" alt=""></span></figure>
+    							<figcaption>
+    								<span class="QuoteContent">Quote&nbsp;Text</span>
+    								<cite><strong>Name,</strong> Job Title / Career Path Status</cite>
+    							</figcaption>
+    						</blockquote>
+    					</div>
+    					<!-- C-42 Small Marketing Quote - End -->
+
+    					<!-- C-43 Image Gallery - Start -->
+    					<div class="ContentRow" data-component="C-43 Image Gallery">
+    						<h3>Slideshow Title</h3>
+    						<p>Slideshow description</p>
+    						<section class="Slideshow" id="Slideshow">
+    							<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    							<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    							<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    							<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    							<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    							<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    							<img src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C43-Image-Gallery-Both-assets/%5BJOB_ID%5D-C43-Image-Gallery-%5BCUSTOM%5D.jpg" data-caption="Photo Description" alt="">
+    						</section>
+    					</div>
+    					<!-- C-43 Image Gallery - End -->
+
+    					<!-- C-45 Prize Category Grid - Start -->
+    					<article class="ContentRow Prizes" data-prize-list-id="C45-Prize-Category-Grid" data-component="C-45 Prize Category Grid">
+    						<section class="Category" data-prize-category="C45-Prize-Category-Grid-Category-Title-1">
+    							<h2 class="CategoryTitle">Category Title <small>Category Qualifier</small></h2>
+    							<div class="CategoryList">
+    								<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-001">
+    									<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    									<div class="PrizeContents">
+    										<div class="PrizeButtonCopy">Button Copy</div>
+    										<div class="PrizeTitle">Prize Name</div>
+    										<div class="PrizeDetails">
+    											<p>Prize Description</p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-002">
+    									<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    									<div class="PrizeContents">
+    										<div class="PrizeButtonCopy">Button Copy</div>
+    										<div class="PrizeTitle">Prize Name</div>
+    										<div class="PrizeDetails">
+    											<p>Prize Description</p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-003">
+    									<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    									<div class="PrizeContents">
+    										<div class="PrizeButtonCopy">Button Copy</div>
+    										<div class="PrizeTitle">Prize Name</div>
+    										<div class="PrizeDetails">
+    											<p>Prize Description</p>
+    										</div>
+    									</div>
+    								</div>
+    								<br class="ClearFloat">
+    							</div>
+    						</section>
+    					</article>
+    					<!-- C-45 Prize Category Grid - End -->
+
+    					<!-- C-45a Prize Grid (No Categories) - Start -->
+    					<article class="ContentRow Prizes" data-prize-list-id="C45a-Prize-Grid-No-Categories" data-component="C-45a Prize Grid (No Categories)">
+    						<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-001">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeButtonCopy">Button Copy</div>
+    								<div class="PrizeTitle">Prize Name</div>
+    								<div class="PrizeDetails">
+    									<p>Prize Description</p>
+    								</div>
+    							</div>
+    						</div>
+    						<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-002">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeButtonCopy">Button Copy</div>
+    								<div class="PrizeTitle">Prize Name</div>
+    								<div class="PrizeDetails">
+    									<p>Prize Description</p>
+    								</div>
+    							</div>
+    						</div>
+    						<div class="Prize" data-prize-index="C45a-Prize-Grid-No-Categories-003">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C45-Prize-Category-Grid-Both-assets/%5BJOB_ID%5D-C45-Prize-Category-Grid-%5BCUSTOM%5D.jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeButtonCopy">Button Copy</div>
+    								<div class="PrizeTitle">Prize Name</div>
+    								<div class="PrizeDetails">
+    									<p>Prize Description</p>
+    								</div>
+    							</div>
+    						</div>
+    						<br class="ClearFloat">
+    					</article>
+    					<!-- C-45a Prize Grid (No Categories) - End -->
+
+    					<!-- C-47 People Grid - Start -->
+    					<article class="ContentRow Prizes Smaller People" data-prize-list-id="C47-People-Grid" data-component="C-47 People Grid">
+    						<div class="Prize" data-prize-index="C47-People-Grid-001">
+    							<div class="PrizeImage"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeTitle">Person Name<br><br><strong>Optional Category A&nbsp;Label</strong><br>Optional Category A&nbsp;Text<br><br><strong>Optional Category B&nbsp;Label</strong><br>Optional Category B&nbsp;Text</div>
+    							</div>
+    						</div>
+    						<div class="Prize" data-prize-index="C47-People-Grid-002">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeTitle">Person Name<br><br><strong>Optional Category A&nbsp;Label</strong><br>Optional Category A&nbsp;Text<br><br><strong>Optional Category B&nbsp;Label</strong><br>Optional Category B&nbsp;Text</div>
+    							</div>
+    						</div>
+    						<div class="Prize" data-prize-index="C47-People-Grid-003">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeTitle">Person Name<br><br><strong>Optional Category A&nbsp;Label</strong><br>Optional Category A&nbsp;Text<br><br><strong>Optional Category B&nbsp;Label</strong><br>Optional Category B&nbsp;Text</div>
+    							</div>
+    						</div>
+    						<div class="Prize" data-prize-index="C47-People-Grid-004">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeTitle">Person Name<br><br><strong>Optional Category A&nbsp;Label</strong><br>Optional Category A&nbsp;Text<br><br><strong>Optional Category B&nbsp;Label</strong><br>Optional Category B&nbsp;Text</div>
+    							</div>
+    						</div>
+    						<div class="Prize" data-prize-index="C47-People-Grid-005">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeTitle">Person Name<br><br><strong>Optional Category A&nbsp;Label</strong><br>Optional Category A&nbsp;Text<br><br><strong>Optional Category B&nbsp;Label</strong><br>Optional Category B&nbsp;Text</div>
+    							</div>
+    						</div>
+    						<div class="Prize" data-prize-index="C47-People-Grid-006">
+    							<div class="PrizeImage Active"><img alt="" src="http://content2.marykayintouch.com/Content/Assets/_Jobs/Images/Components/C47-People-Grid-Legacy-assets/[JOB_ID]-C47-People-Grid-[CUSTOM].jpg"></div>
+    							<div class="PrizeContents">
+    								<div class="PrizeTitle">Person Name<br><br><strong>Optional Category A&nbsp;Label</strong><br>Optional Category A&nbsp;Text<br><br><strong>Optional Category B&nbsp;Label</strong><br>Optional Category B&nbsp;Text</div>
+    							</div>
+    						</div>
+    						<br class="ClearFloat">
+    					</article>
+    					<!-- C-47 People Grid - End -->
+
+    					<!-- C-51 Tabular Data - Start -->
+    					<div class="ContentRow" data-component="C-51 Tabular Data">
+    						<h3><strong>Component</strong> Title</h3>
+    						<p>Component description</p>
+    						<div class="Table Padded">
+    							<div class="TableRow TableHeader">
+    								<div class="TableCell">Header 1</div>
+    								<div class="TableCell">Header 2</div>
+    								<div class="TableCell">Header 3</div>
+    								<div class="TableCell">Header 4</div>
+    							</div>
+    							<div class="TableRow">
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    							</div>
+    							<div class="TableRow">
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    							</div>
+    							<div class="TableRow">
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    							</div>
+    							<div class="TableRow">
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    								<div class="TableCell">--</div>
+    							</div>
+    						</div>
+    					</div>
+    					<!-- C-51 Tabular Data - End -->
+
+    					<!-- C-63 Desktop Accordions (FAQs) - Start -->
+    					<article class="ContentRow Accordion Sitecore" id="Human-Legible-FAQs-ID" data-component="C-63 Desktop Accordions (FAQs)">
+    						<section class="AccordionSection" id="FAQ-Question">
+    							<a class="AccordionHead" href="#FAQ-Question">Question</a>
+    							<div class="AccordionBody">
+    								<div class="AccordionBodyInner">
+    									<p>Answer</p>
+    								</div>
+    							</div>
+    						</section>
+    					</article>
+    					<!-- C-63 Desktop Accordions (FAQs) - End -->
+
+    					<!-- C-11 Two Panel Promo - Start -->
+    					<div class="ContentRow" data-component="C-11 Two Panel Promo">
+    						<div class="NotSupported">Not supported for current InTouch.</div>
+    					</div>
+    					<!-- C-11 Two Panel Promo - End -->
+
+    					<!-- C-13 Related Links - Start -->
+    					<div class="ContentRow" data-component="C-13 Related Links">
+    						<div class="NotSupported">Not supported for current InTouch.</div>
+    					</div>
+    					<!-- C-13 Related Links - End -->
+
+    					<!-- C-67 Footnote Containers - Start -->
+    					<hr data-component="C-67 Footnote Containers">
+    					<div class="ContentRow Fineprint">
+    						<p>Footnote&nbsp;Text</p>
+    					</div>
+    					<!-- C-67 Footnote Containers - End -->
+
+    				</section>
+    			</div>
+    		</div>
+    		<script type="text/javascript" src="http://cdn.polyfill.io/v1/polyfill.min.js"></script>
+    		<script type="text/javascript" src="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Scripts/jQuery.js"></script>
+    		<script>
+    			$('[data-component]').each( function() {
+    				$(this).before('<label class="BigKahunaLabel">' + $(this).attr('data-component') + '</label>');
+    			} );
+    		</script>
+    		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    		<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+    		<script type="text/javascript" src="http://content2.staging.marykayintouch.com/Content/Assets/_Core/Scripts/InTouch.js" data-path="http://content2.marykayintouch.com/Content/Assets/"></script>
+    	</body>
+    </html>"""
+  'eCardNSD':
+    'prefix': 'new eCard english NSD'
+    'body': """<!doctype html>
+    <html style="margin:0;padding:0;">
+      <head>
+        <meta charset="utf-8">
+      </head>
+      <body style="background-color:#fff;margin:0;padding:0;">
+        <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+          <thead>
+            <tr>
+              <th style="border:0;font:inherit;font-family:monospace;font-size:12px;line-height:18px;padding:5px;text-align:left;">
+                <!-- Details -->
+                <p style="font:inherit;font-size:100%;margin:0 0 6px;"><strong>JOB TYPE</strong></p>
+                <p style="font:inherit;font-size:100%;margin:0;"><strong>CATEGORY:</strong> ???</p>
+                <p style="font:inherit;font-size:100%;margin:0;"><strong>DESCRIPTOR:</strong>???</p>
+                <p style="font:inherit;font-size:100%;margin:0;"><strong>SUBJECT LINE:</strong> ???</p>
+                <!-- Details -->
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border:0;padding:0;">
+                <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+                  <tr>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;color:#fff;font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:11px;padding:0;text-align:right;vertical-align:middle;width:448px;">Follow us:</th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;width:4px;">&nbsp;</th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://www.facebook.com/marykay" title="Facebook" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Facebook" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/facebook-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://twitter.com/MaryKay" title="Twitter" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Twitter" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/twitter-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://www.youtube.com/marykay" title="YouTube" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="YouTube" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/youtube-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://pinterest.com/marykayus/" title="Pinterest" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Pinterest" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/pinterest-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://instagram.com/marykayus" title="Instagram" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Instagram" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/instagram-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://blog.marykay.com/" title="Mary Kay Blog" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Mary Kay Blog" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/mary-kay-blog-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+                    <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;width:4px;">&nbsp;</th>
+                  </tr>
+                  <tr>
+                    <th colspan="9" style="background-color:#000;height:64px;padding:0;width:600px;"><img alt="Mary Kay&reg;" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/mary-kay-logo-bar.png" style="border:0;display:block;height:63px;margin:0;padding:0;width:600px;" /></th>
+                  </tr>
+                </table>
+                <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+                  <tr>
+                    <!-- Hero -->
+                    <td style="background-color:#fff;height:300px;padding:0;width:600px;"><a style="border:0;display:block;height:300px;margin:0;padding:0;width:600px;"
+                      href="$1"
+                      title="$2"><img
+                      src="$3"
+                      alt="$4"
+                    style="border:0;display:block;height:300px;margin:0;padding:0;width:600px;" /></a></td>
+                    <!-- /Hero -->
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;height:16px;padding:0;width:600px;"><img src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/shadow.png" alt="" style="border:0;display:block;height:16px;margin:0;padding:0;width:600px;"></td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;color:#231f20;font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding:10px 20px 40px;width:600px;">
+                      <!-- Copy -->
+                      <p style="font:inherit;font-size:100%;margin:0 0 12px;">Dear [RecipientFirstName],</p>
+                      <p style="font:inherit;font-size:100%;margin:0 0 12px;">[Body]</p>
+                      <p style="font:inherit;font-size:100%;margin:0;">[ConsultantFullName]<br />[ConsultantEmailAddress]<br />[ConsultantPhone] <br> [ConsultantPWS]</p>
+                      <!-- /Copy -->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:12px;line-height:12px;padding:0 20px;width:600px;">[OptOutText]</td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;padding:1px 20px;width:600px;">
+                      <table style="border:0;border-collapse:collapse;height:10px;margin:0 auto;padding:0;table-layout:fixed;width:560px;">
+                        <tbody>
+                          <tr>
+                            <td style="height:10px;padding:1px 0 0;vertical-align:top;width:91px;"><img src="http://www.marykay.com/email/images/2015-02-02_IBC-Order-Confirmation-Email/copy.gif" alt="MK&reg; / Mary Kay&reg;" style="border:0;display:block;height:9px;margin:0;padding:0;width:91px;" /></td>
+                            <td style="color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:10px;padding:0;vertical-align:top;">&nbsp;/ &copy; 2018 Mary Kay Inc.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#fff;color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:12px;line-height:12px;padding:0 20px;width:600px;">WIN JOB NUMBER</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </body>
+    </html>"""
+'eCardGeneric':
+  'prefix': 'new eCard english ISD IBC ETC'
+  'body': """<!doctype html>
+  <html style="margin:0;padding:0;">
+<head>
+  <meta charset="utf-8"> </head>
+<body style="background-color:#fff;margin:0;padding:0;">
+  <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+    <tr>
+ <td style="background-color:#fff;color:#231f20;font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding:10px 0px;">
+   <p style="font:inherit;font-size:100%;margin:0 0 12px;">Audience: </p>
+   <p style="font:inherit;font-size:100%;margin:0 0 12px;">Category: </p>
+   <p style="font:inherit;font-size:100%;margin:0 0 12px;">Descriptor: </p>
+   <p style="font:inherit;font-size:100%;margin:0 0 12px;">Subject Line: </p>
+     </td>
+ </tr>
+    <tbody>
+      <tr>
+        <td style="border:0;padding:0;">
+          <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+            <tr>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;color:#fff;font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:11px;padding:0;text-align:right;vertical-align:middle;width:448px;">Follow us:</th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;width:4px;">&nbsp;</th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://www.facebook.com/marykay" title="Facebook" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Facebook" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/facebook-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://twitter.com/MaryKay" title="Twitter" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Twitter" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/twitter-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://www.youtube.com/marykay" title="YouTube" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="YouTube" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/youtube-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://pinterest.com/marykayus/" title="Pinterest" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Pinterest" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/pinterest-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://instagram.com/marykayus" title="Instagram" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Instagram" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/instagram-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;vertical-align:middle;width:24px;"><a href="http://blog.marykay.com/" title="Mary Kay Blog" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;"><img alt="Mary Kay Blog" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media/mary-kay-blog-logo-16.png" style="border:0;display:block;height:16px;margin:0;padding:0;width:16px;" /></a></th>
+              <th style="background-color:#6a6a6e;background-image:url(http://www.marykay.com/email/images/eCard-2016-08-16-assets/social-media-bar.png);border:0;height:32px;padding:0;width:4px;">&nbsp;</th>
+            </tr>
+            <tr>
+              <th colspan="9" style="background-color:#000;height:64px;padding:0;width:600px;"><img alt="Mary Kay&reg;" src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/mary-kay-logo-bar.png" style="border:0;display:block;height:63px;margin:0;padding:0;width:600px;" /></th>
+            </tr>
+          </table>
+          <table style="border:0;border-collapse:collapse;margin:0 auto;padding:0;table-layout:fixed;width:600px;">
+            <tr>
+              <td style="background-color:#fff;height:300px;padding:0;width:600px;"><a style="border:0;display:block;height:300px;margin:0;padding:0;width:600px;" href="$1"
+                  title="$2"><img
+									src="$3"
+									alt="$4"
+								style="border:0;display:block;height:300px;margin:0;padding:0;width:600px;" /></a></td>
+            </tr>
+            <tr>
+              <td style="background-color:#fff;height:16px;padding:0;width:600px;"><img src="http://www.marykay.com/email/images/eCard-2016-08-16-assets/shadow.png" alt="" style="border:0;display:block;height:16px;margin:0;padding:0;width:600px;"></td>
+            </tr>
+            <tr>
+              <td style="background-color:#fff;color:#231f20;font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding:10px 20px 40px;width:600px;">
+                <p style="font:inherit;font-size:100%;margin:0 0 12px;">Dear [[RecipientFirstName]],</p> <br />
+                <p style="font:inherit;font-size:100%;margin:0 0 12px;"> [[Body]]</p> <p>Click here for prize details and contest requirements.</p> [[ConsultantFirstName]]<br />[[ConsultantEmailAddress]]<br />[[ConsultantPhone]]<br />[[ConsultantPWS]]</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color:#fff;color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:12px;line-height:12px;padding:0 20px;width:600px;">[[OptOutText]]</td>
+            </tr>
+            <tr>
+              <td style="background-color:#fff;color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:12px;line-height:12px;padding:0 20px;width:600px;"></td>
+            </tr>
+            <tr>
+              <td style="background-color:#fff;padding:1px 20px;width:600px;">
+                <table style="border:0;border-collapse:collapse;height:10px;margin:0 auto;padding:0;table-layout:fixed;width:560px;">
+                  <tbody>
+                    <tr>
+                      <td style="height:10px;padding:1px 0 0;vertical-align:top;width:91px;"><img src="http://www.marykay.com/email/images/2015-02-02_IBC-Order-Confirmation-Email/copy.gif" alt="MK&reg; / Mary Kay&reg;" style="border:0;display:block;height:9px;margin:0;padding:0;width:91px;" /></td>
+                      <td style="color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:10px;padding:0;vertical-align:top;">&nbsp;/ &copy; 2018 Mary Kay Inc.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="background-color:#fff;color:#999;font-family:Arial,Helvetica,sans-serif;font-size:10px;height:12px;line-height:12px;padding:0 20px;width:600px;">JOB_ID</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>"""
